@@ -13,12 +13,17 @@ img {
 }
 
 body {
-    font-family: 'PT Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 h1,
-h2,
+h2 {
+    font-family: 'Bebas Neue', cursive;
+}
+
 h3,
 h4,
 h5,
-h6 {}
+h6 {
+    font-family: 'Roboto', sans-serif;
+}
