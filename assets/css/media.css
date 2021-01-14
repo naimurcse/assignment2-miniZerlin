@@ -6,7 +6,8 @@
     }
 
     .travel-backpack-section h2,
-    .casual-backpack-section h2 {
+    .casual-backpack-section h2,
+    .our-service h2 {
         margin-bottom: 60px;
         text-align: center;
     }
@@ -31,6 +32,14 @@
 
     .features-image {
         margin-top: 50px;
+    }
+
+    .service-content p i {
+        font-size: 55px;
+    }
+
+    .service-content {
+        text-align: center;
     }
 }
 
@@ -49,7 +58,8 @@
     }
 
     .travel-backpack-section h2,
-    .casual-backpack-section h2 {
+    .casual-backpack-section h2,
+    .our-service h2 {
         margin-bottom: 60px;
         text-align: center;
     }
@@ -74,6 +84,14 @@
 
     .features-image {
         margin-top: 50px;
+    }
+
+    .service-content p i {
+        font-size: 55px;
+    }
+
+    .service-content {
+        text-align: center;
     }
 }
 
