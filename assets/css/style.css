@@ -34,12 +34,14 @@ h6 {
     font-size: 16px;
     font-weight: 500;
     text-transform: uppercase;
-    padding: 22px 35px;
+    padding: 16px 34px;
+    border-radius: 10px;
 }
 
 .btn-custom:hover {
-    color: #76C27E;
-    background-color: #290b7a;
+    color: #fff;
+    background-color: #76C27E;
+    /* border: 2px solid #2A1E59; */
 }
 
 .btn-custom i {
@@ -52,12 +54,9 @@ header {
     background-color: #FFFFF4;
 }
 
-.menu {}
-
-.menu ul {}
 
 .menu ul li {
-    margin-left: 50px;
+    margin-left: 36px;
     margin-top: 15px;
 }
 
@@ -79,8 +78,6 @@ header {
     padding-top: 20px;
     padding-bottom: 80px;
 }
-
-.banner-content {}
 
 .banner-content h1 {
     font-size: 80px;
@@ -113,20 +110,19 @@ header {
     width: 90%;
 }
 
-.banner-content .btn-custom {}
-
 /* Banner Section End */
 
 /* Features Sectopn Start  */
 .features-section {
     background: #fff;
+    padding-top: 60px;
 }
 
 .feature {
     /* border: 1px solid rebeccapurple; */
     padding: 20px;
-    border-radius: 20px;
-    width: 90%;
+    border-radius: 15px;
+    /* width: 90%; */
     box-shadow: 0 6px 14px 0 #00000017;
 }
 
@@ -139,11 +135,11 @@ header {
 
 .feature p {
     width: 90%;
+    margin-bottom: 0;
 }
 
 .feature img {
     width: 60px;
-    margin-right: 30px;
 }
 
 /* Features Sectopn End */
@@ -151,9 +147,10 @@ header {
 
 /* Casual Backpack Section Start */
 .casual-backpack-section {
-    padding-bottom: 80px;
+    padding: 80px 0;
 }
 
+.travel-backpack-section h2,
 .casual-backpack-section h2 {
     font-size: 48px;
     font-weight: 500;
@@ -161,19 +158,48 @@ header {
     margin-bottom: 20px;
 }
 
-.casual-backpacks {}
 
 .backpack {
     border: 0;
     box-shadow: 0 6px 14px 0 #00000017;
-    border-radius: 20px;
+    border-radius: 16px;
+}
+
+.backpack p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 20px;
 }
 
 .backpack .card-image {
-    background-color: #E5E5E5;
+    background-color: #F1F1F1;
     margin: 15px;
-    border-radius: 20px;
+    margin-bottom: 5px;
+    border-radius: 16px;
     padding: 25px;
 }
 
+.backpack .card-title {
+    font-size: 24px;
+    color: #363958;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.price h3 {
+    margin: 0;
+    font-weight: 900;
+    font-size: 36px;
+    color: #76C27E;
+}
+
 /* Casual Backpack Section End */
+
+
+/* Travel Backpack Section Start */
+.travel-backpack-section {
+    padding-bottom: 80px;
+}
+
+/* Travel Backpack Section End */
