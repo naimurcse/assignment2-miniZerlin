@@ -41,7 +41,6 @@ h6 {
 .btn-custom:hover {
     color: #fff;
     background-color: #76C27E;
-    /* border: 2px solid #2A1E59; */
 }
 
 .btn-custom i {
@@ -119,10 +118,8 @@ header {
 }
 
 .feature {
-    /* border: 1px solid rebeccapurple; */
     padding: 20px;
     border-radius: 15px;
-    /* width: 90%; */
     box-shadow: 0 6px 14px 0 #00000017;
 }
 
@@ -273,8 +270,8 @@ header {
 footer {
     padding: 20px 0;
     text-align: center;
-    background-color: #F1F1F1;
-    color: #212529;
+    background-color: #404040;
+    color: #fff;
 }
 
 /* Footer End */
